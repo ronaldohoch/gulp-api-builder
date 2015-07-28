@@ -1,7 +1,6 @@
 {
   "name": "nodegulp",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,10 +8,21 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "express": "^4.13.1"
-  },
   "dependencies": {
-    "express-extras": "^0.3.1"
-  }
+    "body-parser": "^1.13.2",
+    "express-extras": "^0.3.1",
+    "express": "^4.13.1",
+    "gulp-uglify": "^1.2.0",
+    "gulp": "^3.9.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ronaldohoch/gulp-api-builder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ronaldohoch/gulp-api-builder/issues"
+  },
+  "homepage": "https://github.com/ronaldohoch/gulp-api-builder"
 }
