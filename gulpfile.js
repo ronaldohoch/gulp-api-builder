@@ -9,5 +9,5 @@ var express = require("express");
 	app = express();
 
 require("./configs.js")(app);
-require("./routes.js")(app);
-require("./tasks.js")(gulp);
+require("./routes/routes.js")(app);
+require("./tasks/tasks.js")(gulp);
