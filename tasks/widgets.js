@@ -6,6 +6,6 @@ module.exports = function(gulp){
 				// console.error("error");
 				cb(null,"ariel!");
 			}))
-			.pipe(gulp.dest("./min"));
+			.pipe(gulp.dest(dest[req.params.task]));
 	});
 }

@@ -5,6 +5,7 @@ var express = require("express");
 	http = require("http"),
 	_ = require("underscore"),
 	files={},
+	dest={},
 	server=false,
 	app = express();
 
