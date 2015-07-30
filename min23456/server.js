@@ -1,0 +1,1 @@
+var express=require("express"),app=express(),gulp=require("./gulpfile.js");app.get("/",function(e,p){gulp().start("default",function(e){console.log("err",e),p.send("done")})}),app.listen("3000",function(){console.log("@3000")});

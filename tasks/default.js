@@ -4,12 +4,13 @@ module.exports = function(gulp){
 		cb();
 	});
 	gulp.task("server",['close'],function(cb){
-		server = http.createServer(app).listen(3000,function(){
+		server = app.listen(3000,function(){
+		// server = http.createServer(app).listen(3000,function(){
 			console.log("@3000");
 		});
 		cb();
 	})
-	gulp.task("default",["uglify"]);
+	// gulp.task("default",["uglify"])s;
 	gulp.task("w",['server'],function(){
 		gulp.watch(['gulpfile.js'],['server']);
 	});
