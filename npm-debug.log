@@ -1,0 +1,73 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/v0.10.35/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/v0.10.35/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'bodyParser' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json nodegulp@1.0.0 No description
+5 warn package.json nodegulp@1.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'bodyParser', null ]
+8 verbose cache add name=undefined spec="bodyParser" args=["bodyParser",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'bodyParser',
+9 verbose parsed url   path: 'bodyParser',
+9 verbose parsed url   href: 'bodyParser' }
+10 silly lockFile caa4c3c7-bodyParser bodyParser
+11 verbose lock bodyParser /home/ubuntu/.npm/caa4c3c7-bodyParser.lock
+12 silly lockFile caa4c3c7-bodyParser bodyParser
+13 silly lockFile caa4c3c7-bodyParser bodyParser
+14 verbose addNamed [ 'bodyParser', '' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile e0b6bd45-bodyParser bodyParser@
+17 verbose lock bodyParser@ /home/ubuntu/.npm/e0b6bd45-bodyParser.lock
+18 silly addNameRange { name: 'bodyParser', range: '*', hasData: false }
+19 verbose request where is /bodyParser
+20 verbose request registry https://registry.npmjs.org/
+21 verbose request id 2236596d826708a3
+22 verbose url raw /bodyParser
+23 verbose url resolving [ 'https://registry.npmjs.org/', './bodyParser' ]
+24 verbose url resolved https://registry.npmjs.org/bodyParser
+25 verbose request where is https://registry.npmjs.org/bodyParser
+26 info trying registry request attempt 1 at 16:27:07
+27 http GET https://registry.npmjs.org/bodyParser
+28 http 404 https://registry.npmjs.org/bodyParser
+29 silly registry.get cb [ 404,
+29 silly registry.get   { 'content-type': 'application/json',
+29 silly registry.get     'cache-control': 'max-age=0',
+29 silly registry.get     'content-length': '2',
+29 silly registry.get     'accept-ranges': 'bytes',
+29 silly registry.get     date: 'Mon, 24 Aug 2015 16:27:07 GMT',
+29 silly registry.get     via: '1.1 varnish',
+29 silly registry.get     age: '0',
+29 silly registry.get     connection: 'keep-alive',
+29 silly registry.get     'x-served-by': 'cache-dfw1822-DFW',
+29 silly registry.get     'x-cache': 'MISS',
+29 silly registry.get     'x-cache-hits': '0',
+29 silly registry.get     'x-timer': 'S1440433627.481685,VS0,VE71' } ]
+30 silly lockFile e0b6bd45-bodyParser bodyParser@
+31 silly lockFile e0b6bd45-bodyParser bodyParser@
+32 error 404 Not Found
+32 error 404
+32 error 404 'bodyParser' is not in the npm registry.
+32 error 404 You should bug the author to publish it
+32 error 404 It was specified as a dependency of 'nodegulp'
+32 error 404
+32 error 404 Note that you can also install from a
+32 error 404 tarball, folder, or http url, or git url.
+33 error System Linux 3.14.13-c9
+34 error command "/home/ubuntu/.nvm/v0.10.35/bin/node" "/home/ubuntu/.nvm/v0.10.35/bin/npm" "install" "bodyParser"
+35 error cwd /home/ubuntu/workspace
+36 error node -v v0.10.35
+37 error npm -v 1.4.28
+38 error code E404
+39 verbose exit [ 1, true ]
