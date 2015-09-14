@@ -1,14 +1,8 @@
-var express = require("express");
-	bodyParser = require('body-parser'),
+var express = require("express"),
 	gulp = require("gulp"),
-	uglify = require("gulp-uglify"),
-	http = require("http"),
-	_ = require("underscore"),
-	files={},
-	dest={},
-	server=false,
-	app = express();
+	app = express(),
+	confs = require("./confs.js");
 
 require("./configs.js")(app);
-require("./routes/routes.js")(app);
-require("./tasks/tasks.js")(gulp);
+require("./routes/routes.js")(app,confs,gulp);
+require("./tasks/tasks.js")(gulp,app,confs);
